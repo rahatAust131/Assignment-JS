@@ -7,7 +7,10 @@ function kilometerToMeter(distance) {
     console.log(
       "Unexpected Value (For Function-1)! Distance can not be negative"
     );
-  } else {
+  }
+
+  // main procedure
+  else {
     return distance * 1000; //1km = 1000m
   }
 }
